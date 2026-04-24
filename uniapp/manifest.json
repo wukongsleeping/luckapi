@@ -1,0 +1,68 @@
+{
+	"name": "luckapi-mobile",
+	"appid": "",
+	"description": "LuckApi 移动端管理应用",
+	"versionName": "1.0.0",
+	"versionCode": "100",
+	"transformPx": false,
+	"app-plus": {
+		"usingComponents": true,
+		"nvueCompiler": "uni-app",
+		"splashscreen": {
+			"alwaysShowBeforeRender": true,
+			"waiting": true,
+			"autoclose": true,
+			"delay": 0
+		},
+		"modules": {},
+		"distribute": {
+			"icons": {
+				"android": {
+					"hdpi": "",
+					"xhdpi": "",
+					"xxhdpi": "",
+					"xxxhdpi": ""
+				}
+			},
+			"splashscreen": {
+				"android": {
+					"hdpi": "",
+					"xhdpi": "",
+					"xxhdpi": ""
+				}
+			},
+			"android": {
+				"permissions": [
+					"<uses-permission android:name=\"android.permission.INTERNET\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+					"<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>"
+				]
+			},
+			"ios": {},
+			"sdkConfigs": {}
+		}
+	},
+	"quickapp": {},
+	"mp-weixin": {
+		"appid": "",
+		"setting": {
+			"urlCheck": false
+		},
+		"usingComponents": true
+	},
+	"mp-alipay": {
+		"usingComponents": true
+	},
+	"mp-baidu": {
+		"usingComponents": true
+	},
+	"mp-toutiao": {
+		"usingComponents": true
+	},
+	"h5": {
+		"title": "LuckApi",
+		"router": {
+			"mode": "hash"
+		}
+	}
+}

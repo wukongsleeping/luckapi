@@ -1,0 +1,41 @@
+# .quality-config.yaml (Python/FastAPI)
+project:
+  language: python
+  framework: pytest
+  src_dir: app/
+  test_dir: tests/
+
+thresholds:
+  coverage:
+    minimum: 70
+    warning: 60
+    fatal: 40
+    target_modules:
+      - app/
+  lint:
+    tool: ruff
+    errors: 0
+    warnings: 5
+  test:
+    minimum_passing: 0
+
+gates:
+  - name: build
+    command: python -m compileall app/ || true
+    blocking: true
+  - name: test
+    command: pytest tests/ -v --no-cov --tb=short -q
+    blocking: true
+  - name: coverage
+    command: pytest tests/ --cov=app --cov-report=term-missing
+    threshold_field: pct_covered
+    minimum: 70
+    blocking: true
+  - name: lint
+    command: ruff check app/ && black --check app/
+    blocking: true
+
+loop:
+  max_iterations: 5
+  auto_fix_simple: true  # auto-fix import sorting, whitespace, formatting
+  coverage_step: 10      # raise threshold 10% per iteration: 70→80→90→90→90

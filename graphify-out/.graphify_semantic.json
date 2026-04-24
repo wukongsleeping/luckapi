@@ -1,0 +1,842 @@
+{
+  "nodes": [
+    {
+      "id": "node_project_luckapi",
+      "label": "LuckApi",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "1-5"
+    },
+    {
+      "id": "node_project_api_gateway",
+      "label": "API Gateway Platform",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "3"
+    },
+    {
+      "id": "node_tech_backend_python",
+      "label": "Python 3.10+",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "5"
+    },
+    {
+      "id": "node_tech_fastapi",
+      "label": "FastAPI 0.115+",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_sqlalchemy",
+      "label": "SQLAlchemy 2.0 async",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_pydantic",
+      "label": "Pydantic v2",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_mysql",
+      "label": "MySQL 8.0",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "8"
+    },
+    {
+      "id": "node_tech_redis",
+      "label": "Redis 7",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "8"
+    },
+    {
+      "id": "node_tech_frontend_vue",
+      "label": "Vue 3",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "9"
+    },
+    {
+      "id": "node_tech_vite",
+      "label": "Vite",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "9"
+    },
+    {
+      "id": "node_tech_pinia",
+      "label": "Pinia",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "9"
+    },
+    {
+      "id": "node_tech_element_plus",
+      "label": "Element Plus",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "9"
+    },
+    {
+      "id": "node_tech_vue_router",
+      "label": "Vue Router",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "9"
+    },
+    {
+      "id": "node_tech_axios",
+      "label": "Axios",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "102"
+    },
+    {
+      "id": "node_tech_nginx",
+      "label": "Nginx",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "164-223"
+    },
+    {
+      "id": "node_tech_docker",
+      "label": "Docker Compose",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "10"
+    },
+    {
+      "id": "node_tech_uniapp",
+      "label": "UniApp",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "133"
+    },
+    {
+      "id": "node_tech_hbuilderx",
+      "label": "HBuilderX",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "135"
+    },
+    {
+      "id": "node_tech_uvicorn",
+      "label": "Uvicorn",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "24"
+    },
+    {
+      "id": "node_tech_asyncmy",
+      "label": "asyncmy",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_aiohttp",
+      "label": "aiohttp",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_tenacity",
+      "label": "tenacity",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_cryptography",
+      "label": "cryptography (Fernet)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_passlib",
+      "label": "passlib (bcrypt)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_python_jose",
+      "label": "python-jose",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "38"
+    },
+    {
+      "id": "node_tech_alembic",
+      "label": "Alembic (pending migration)",
+      "file_type": "document",
+      "source_file": "\u5347\u7ea7.md",
+      "source_location": "132-137"
+    },
+    {
+      "id": "node_arch_backend",
+      "label": "Backend (FastAPI)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "86-96"
+    },
+    {
+      "id": "node_arch_frontend",
+      "label": "Frontend (Vue 3 SPA)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "97-102"
+    },
+    {
+      "id": "node_arch_mobile",
+      "label": "Mobile (UniApp)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "133-191"
+    },
+    {
+      "id": "node_module_api_proxy",
+      "label": "API Proxy (proxy.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "77"
+    },
+    {
+      "id": "node_module_api_users",
+      "label": "User API (users.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "78"
+    },
+    {
+      "id": "node_module_api_models",
+      "label": "Model API (models.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "79"
+    },
+    {
+      "id": "node_module_api_groups",
+      "label": "Group API (groups.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "169"
+    },
+    {
+      "id": "node_module_encryption",
+      "label": "Encryption (core/encryption.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "80"
+    },
+    {
+      "id": "node_module_security",
+      "label": "Security (core/security.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "81"
+    },
+    {
+      "id": "node_module_config",
+      "label": "Config (core/config.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "82"
+    },
+    {
+      "id": "node_module_middleware",
+      "label": "Middleware Layer",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "65"
+    },
+    {
+      "id": "node_module_rate_limit",
+      "label": "Rate Limiter (redis-based)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "83"
+    },
+    {
+      "id": "node_module_audit",
+      "label": "Audit Logger",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "84"
+    },
+    {
+      "id": "node_module_body_size_limit",
+      "label": "Body Size Limit (10MB)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "85"
+    },
+    {
+      "id": "node_module_db_session",
+      "label": "DB Session (db/session.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "86"
+    },
+    {
+      "id": "node_module_db_redis",
+      "label": "Redis Connection (db/redis.py)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "87"
+    },
+    {
+      "id": "node_module_schemas",
+      "label": "Pydantic Schemas",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "88"
+    },
+    {
+      "id": "node_deploy_docker",
+      "label": "Docker Deploy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "22"
+    },
+    {
+      "id": "node_deploy_native",
+      "label": "Native Server Deploy",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "1-359"
+    },
+    {
+      "id": "node_deploy_nginx_reverse_proxy",
+      "label": "Nginx Reverse Proxy",
+      "file_type": "document",
+      "source_file": "INSTALL.md",
+      "source_location": "164-284"
+    },
+    {
+      "id": "node_image_tabs",
+      "label": "App Tabbar Icons",
+      "file_type": "image",
+      "source_file": "uniapp/static/tab-*"
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_project_luckapi",
+      "target": "node_project_api_gateway",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "3",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_tech_backend_python",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "5",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_tech_fastapi",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_arch_backend",
+      "relation": "has_component",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "86",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_fastapi",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_sqlalchemy",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_pydantic",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_mysql",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "8",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_redis",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "8",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_middleware",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "65",
+      "weight": 1.0
+    },
+    {
+      "source": "node_module_middleware",
+      "target": "node_module_rate_limit",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "83",
+      "weight": 1.0
+    },
+    {
+      "source": "node_module_middleware",
+      "target": "node_module_audit",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "84",
+      "weight": 1.0
+    },
+    {
+      "source": "node_module_middleware",
+      "target": "node_module_body_size_limit",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "85",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_api_proxy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "77",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_api_users",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "78",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_api_models",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "79",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_api_groups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "169",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_encryption",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "80",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_security",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "81",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_config",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "82",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_db_session",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "86",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_db_redis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "87",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_module_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "88",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_arch_frontend",
+      "relation": "has_component",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "97",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_frontend_vue",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "9",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_element_plus",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "9",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_vue_router",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "9",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_pinia",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "9",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_vite",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "9",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_axios",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "102",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_arch_mobile",
+      "relation": "has_component",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "133",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_mobile",
+      "target": "node_tech_uniapp",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "133",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_mobile",
+      "target": "node_tech_hbuilderx",
+      "relation": "uses_dev_tool",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "135",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_deploy_docker",
+      "relation": "supports_deploy",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "22",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_deploy_native",
+      "relation": "supports_deploy",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "INSTALL.md",
+      "source_location": "1",
+      "weight": 1.0
+    },
+    {
+      "source": "node_deploy_native",
+      "target": "node_deploy_nginx_reverse_proxy",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "INSTALL.md",
+      "source_location": "164",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_tech_nginx",
+      "relation": "served_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "INSTALL.md",
+      "source_location": "164",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_uvicorn",
+      "relation": "run_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "24",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_tenacity",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_aiohttp",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_backend",
+      "target": "node_tech_asyncmy",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_module_api_users",
+      "target": "node_tech_passlib",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_module_encryption",
+      "target": "node_tech_cryptography",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "38",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_tech_docker",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "10",
+      "weight": 1.0
+    },
+    {
+      "source": "node_project_luckapi",
+      "target": "node_tech_nginx",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "INSTALL.md",
+      "source_location": "164",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_frontend",
+      "target": "node_arch_backend",
+      "relation": "communicates_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "INSTALL.md",
+      "source_location": "164",
+      "weight": 1.0
+    },
+    {
+      "source": "node_arch_mobile",
+      "target": "node_arch_backend",
+      "relation": "communicates_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "AGENTS.md",
+      "source_location": "133",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "backend_tech_stack",
+      "label": "Backend Tech Stack",
+      "nodes": [
+        "node_tech_fastapi",
+        "node_tech_sqlalchemy",
+        "node_tech_pydantic",
+        "node_tech_mysql",
+        "node_tech_redis",
+        "node_tech_uvicorn",
+        "node_tech_asyncmy",
+        "node_tech_cryptography"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "AGENTS.md"
+    },
+    {
+      "id": "frontend_tech_stack",
+      "label": "Frontend Tech Stack",
+      "nodes": [
+        "node_tech_frontend_vue",
+        "node_tech_element_plus",
+        "node_tech_vue_router",
+        "node_tech_pinia",
+        "node_tech_vite",
+        "node_tech_axios"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": "README.md"
+    }
+  ],
+  "input_tokens": 5000,
+  "output_tokens": 3000
+}

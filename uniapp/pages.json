@@ -1,0 +1,87 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/users/users",
+			"style": {
+				"navigationBarTitleText": "用户管理"
+			}
+		},
+		{
+			"path": "pages/users/userDetail",
+			"style": {
+				"navigationBarTitleText": "用户详情"
+			}
+		},
+		{
+			"path": "pages/models/models",
+			"style": {
+				"navigationBarTitleText": "模型管理"
+			}
+		},
+		{
+			"path": "pages/models/modelDetail",
+			"style": {
+				"navigationBarTitleText": "模型详情"
+			}
+		},
+		{
+			"path": "pages/groups/groups",
+			"style": {
+				"navigationBarTitleText": "分组管理"
+			}
+		},
+		{
+			"path": "pages/groupDetail/groupDetail",
+			"style": {
+				"navigationBarTitleText": "分组详情"
+			}
+		},
+		{
+			"path": "pages/notify/notify",
+			"style": {
+				"navigationBarTitleText": "消息通知"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "LuckApi",
+		"navigationBarBackgroundColor": "#0f172a",
+		"backgroundColor": "#0f172a",
+		"backgroundTextStyle": "light"
+	},
+	"tabBar": {
+		"color": "#94a3b8",
+		"selectedColor": "#10b981",
+		"backgroundColor": "#1e293b",
+		"borderStyle": "black",
+		"boxShadow": "0 -4rpx 16rpx rgba(0, 0, 0, 0.1)",
+		"list": [
+			{
+				"pagePath": "pages/users/users",
+				"text": "用户",
+				"iconPath": "static/tab-user.png",
+				"selectedIconPath": "static/tab-user-active.png"
+			},
+			{
+				"pagePath": "pages/models/models",
+				"text": "模型",
+				"iconPath": "static/tab-model.png",
+				"selectedIconPath": "static/tab-model-active.png"
+			},
+			{
+				"pagePath": "pages/groups/groups",
+				"text": "分组",
+				"iconPath": "static/tab-group.png",
+				"selectedIconPath": "static/tab-group-active.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,696 @@
+{
+  "communities": {
+    "0": [
+      "admin_models_createglobalmodel",
+      "admin_models_deleteglobalmodel",
+      "admin_models_getglobalmodel",
+      "admin_models_getglobalmodels",
+      "admin_models_updateglobalmodel",
+      "frontend_src_api_admin_models_js",
+      "frontend_src_api_groups_js",
+      "frontend_src_api_user_js",
+      "frontend_src_components_layout_mainlayout_vue",
+      "frontend_src_views_groups_vue",
+      "groupdetail_handlesave",
+      "groups_assigngroupmodel",
+      "groups_assigngroupuser",
+      "groups_assignusertogroup",
+      "groups_changegroupmodel",
+      "groups_confirmdeletegroup",
+      "groups_creategroup",
+      "groups_deletegroup",
+      "groups_editgroup",
+      "groups_formatdate",
+      "groups_getgroup",
+      "groups_getgroups",
+      "groups_handleaddmembers",
+      "groups_handlecreate",
+      "groups_handleedit",
+      "groups_loadavailablemodels",
+      "groups_loadgroupmembers",
+      "groups_loadgroups",
+      "groups_loadusers",
+      "groups_opengroupdetail",
+      "groups_removecreateuser",
+      "groups_removegroupuser",
+      "groups_removemember",
+      "groups_removeuserfromgroup",
+      "groups_resolvemodelinfo",
+      "groups_updategroup",
+      "groups_viewmemberkeys",
+      "mainlayout_logout",
+      "notification_ssebridge_push",
+      "qarecords_loadusers",
+      "request_del",
+      "request_post",
+      "request_put",
+      "request_request",
+      "uniapp_api_groups_js",
+      "uniapp_api_request_js",
+      "uniapp_api_users_js",
+      "user_createuser",
+      "user_deleteuser",
+      "user_getapikeys",
+      "user_getuser",
+      "user_getusers",
+      "user_renewapikey",
+      "user_updateuser",
+      "userdetail_addip",
+      "userdetail_handlesave",
+      "users_createuser",
+      "users_deleteuser",
+      "users_fetchapikey",
+      "users_getusers",
+      "users_renewapikey",
+      "users_updateuser"
+    ],
+    "1": [
+      "admin_model_globalmodelcreate",
+      "admin_model_globalmodellist",
+      "admin_model_globalmodelout",
+      "admin_model_globalmodelupdate",
+      "admin_models_create_global_model",
+      "admin_models_delete_global_model",
+      "admin_models_get_global_model",
+      "admin_models_list_global_models",
+      "admin_models_update_global_model",
+      "backend_app_api_admin_models_py",
+      "backend_app_api_groups_py",
+      "backend_app_api_qa_py",
+      "backend_app_schemas_admin_model_py",
+      "backend_app_schemas_group_py",
+      "backend_app_schemas_model_py",
+      "backend_app_schemas_qa_py",
+      "backend_app_schemas_user_py",
+      "basemodel",
+      "group_groupassignuser",
+      "group_groupcreate",
+      "group_grouplist",
+      "group_groupout",
+      "group_groupupdate",
+      "groups_assign_group_model",
+      "groups_assign_group_user",
+      "groups_create_group",
+      "groups_delete_group",
+      "groups_get_group",
+      "groups_list_groups",
+      "groups_remove_group_user",
+      "groups_update_group",
+      "model_apikeyout",
+      "model_usermodelcreate",
+      "model_usermodellist",
+      "model_usermodelout",
+      "models_list_user_models",
+      "qa_delete_qa_record",
+      "qa_export_qa_records",
+      "qa_get_qa_record",
+      "qa_list_qa_records",
+      "qa_qarecordlist",
+      "qa_qarecordout",
+      "user_loginrequest",
+      "user_tokenout",
+      "user_usercreate",
+      "user_userlist",
+      "user_userout",
+      "user_userupdate"
+    ],
+    "2": [
+      "backend_app_api_models_py",
+      "backend_app_api_users_py",
+      "backend_app_core_security_py",
+      "backend_app_db_session_py",
+      "backend_app_models_models_py",
+      "backend_db_init_py",
+      "base",
+      "db_init_init_db",
+      "declarativebase",
+      "models_add_user_model",
+      "models_apikey",
+      "models_delete_user_model",
+      "models_get_user_model",
+      "models_globalmodel",
+      "models_group",
+      "models_groupuser",
+      "models_list_api_keys",
+      "models_qarecord",
+      "models_rationale_63",
+      "models_renew_api_key",
+      "models_update_user_model",
+      "models_user",
+      "models_usermodel",
+      "proxy_rationale_162",
+      "proxy_rationale_222",
+      "proxy_rationale_392",
+      "proxy_rationale_413",
+      "proxy_rationale_588",
+      "proxy_rationale_99",
+      "proxy_save_qa_record",
+      "security_generate_api_key",
+      "security_generate_user_token",
+      "security_hash_password",
+      "security_rationale_16",
+      "security_rationale_7",
+      "security_verify_password",
+      "session_base",
+      "session_get_async_session_ctx",
+      "session_get_db",
+      "session_rationale_21",
+      "users_create_user",
+      "users_delete_user",
+      "users_get_user",
+      "users_list_users",
+      "users_update_user"
+    ],
+    "3": [
+      "node_arch_backend",
+      "node_arch_frontend",
+      "node_arch_mobile",
+      "node_deploy_docker",
+      "node_deploy_native",
+      "node_deploy_nginx_reverse_proxy",
+      "node_module_api_groups",
+      "node_module_api_models",
+      "node_module_api_proxy",
+      "node_module_api_users",
+      "node_module_audit",
+      "node_module_body_size_limit",
+      "node_module_config",
+      "node_module_db_redis",
+      "node_module_db_session",
+      "node_module_encryption",
+      "node_module_middleware",
+      "node_module_rate_limit",
+      "node_module_schemas",
+      "node_module_security",
+      "node_project_api_gateway",
+      "node_project_luckapi",
+      "node_tech_aiohttp",
+      "node_tech_asyncmy",
+      "node_tech_axios",
+      "node_tech_backend_python",
+      "node_tech_cryptography",
+      "node_tech_docker",
+      "node_tech_element_plus",
+      "node_tech_fastapi",
+      "node_tech_frontend_vue",
+      "node_tech_hbuilderx",
+      "node_tech_mysql",
+      "node_tech_nginx",
+      "node_tech_passlib",
+      "node_tech_pinia",
+      "node_tech_pydantic",
+      "node_tech_redis",
+      "node_tech_sqlalchemy",
+      "node_tech_tenacity",
+      "node_tech_uniapp",
+      "node_tech_uvicorn",
+      "node_tech_vite",
+      "node_tech_vue_router"
+    ],
+    "4": [
+      "auth_admin_required",
+      "auth_admin_test_endpoint",
+      "auth_check_login_rate_limit",
+      "auth_create_token",
+      "auth_decode_token",
+      "auth_get_current_user",
+      "auth_getme",
+      "auth_login",
+      "auth_loginrequest",
+      "auth_logout",
+      "auth_me",
+      "auth_rationale_1",
+      "auth_rationale_180",
+      "auth_rationale_203",
+      "auth_rationale_220",
+      "auth_rationale_27",
+      "auth_rationale_54",
+      "auth_rationale_91",
+      "backend_app_api_auth_py",
+      "backend_app_db_redis_py",
+      "proxy_health_check",
+      "redis_close_redis",
+      "redis_get_redis",
+      "uniapp_api_auth_js"
+    ],
+    "5": [
+      "001_add_expires_at_add_expires_at_column",
+      "001_add_expires_at_rationale_13",
+      "003_create_group_tables_create_group_tables",
+      "003_create_group_tables_rationale_13",
+      "004_add_allowed_ips_add_allowed_ips_column",
+      "004_add_allowed_ips_rationale_13",
+      "005_create_qa_records_create_qa_records_table",
+      "005_create_qa_records_rationale_13",
+      "007_make_global_models_api_key_nullable_migrate_global_models_api_key_nullable",
+      "007_make_global_models_api_key_nullable_rationale_13",
+      "backend_app_core_config_py",
+      "backend_migrations_001_add_expires_at_py",
+      "backend_migrations_003_create_group_tables_py",
+      "backend_migrations_004_add_allowed_ips_py",
+      "backend_migrations_005_create_qa_records_py",
+      "backend_migrations_007_make_global_models_api_key_nullable_py",
+      "basesettings",
+      "config_config",
+      "config_get_settings",
+      "config_mysql_url",
+      "config_redis_url",
+      "config_settings"
+    ],
+    "6": [
+      "frontend_src_views_qarecords_vue",
+      "groups_copytext",
+      "qa_deleteqarecord",
+      "qarecords_confirmdelete",
+      "qarecords_copytext",
+      "qarecords_fmtnum",
+      "qarecords_formatfulltime",
+      "qarecords_formatjson",
+      "qarecords_formattime",
+      "qarecords_handlesizechange",
+      "qarecords_loadrecords",
+      "qarecords_resetfilter",
+      "qarecords_showuserdetail",
+      "qarecords_statuslabel",
+      "qarecords_username",
+      "qarecords_viewdetail",
+      "uniapp_pages_users_users_vue",
+      "users_catch",
+      "users_if"
+    ],
+    "7": [
+      "backend_app_api_proxy_py",
+      "frontend_src_api_qa_js",
+      "proxy_check_ip_whitelist",
+      "proxy_close_aiohttp",
+      "proxy_extract_stream_tokens",
+      "proxy_extract_tokens",
+      "proxy_forward_chat",
+      "proxy_get_client_ip",
+      "proxy_get_user_by_api_key",
+      "proxy_get_user_models_from_cache",
+      "proxy_list_models",
+      "proxy_make_stream_gen",
+      "proxy_parse_authorization",
+      "proxy_proxy_chat",
+      "proxy_proxy_completions",
+      "qa_exportqarecords",
+      "qa_getqarecord",
+      "qa_getqarecords",
+      "request_get"
+    ],
+    "8": [
+      "backend_app_api_notify_py",
+      "backend_app_notification_py",
+      "notification_cleanup",
+      "notification_rationale_1",
+      "notification_rationale_24",
+      "notification_rationale_36",
+      "notification_ssebridge",
+      "notification_ssebridge_client_count",
+      "notification_ssebridge_init",
+      "notification_ssebridge_on_push",
+      "notification_ssebridge_subscribe",
+      "notify_events_stats",
+      "notify_rationale_1",
+      "notify_rationale_22",
+      "notify_rationale_65",
+      "notify_recent_events",
+      "notify_sse_events"
+    ],
+    "9": [
+      "auth_decodetokenpayload",
+      "auth_istokenexpired",
+      "backend_app_core_utils_py",
+      "frontend_src_api_auth_js",
+      "models_utcnow",
+      "notify_addrecentevent",
+      "notify_clearheart",
+      "notify_connect",
+      "notify_connectnotify",
+      "notify_disconnectnotify",
+      "notify_fetchmissedevents",
+      "notify_getrecentnotifications",
+      "notify_schedulereconnect",
+      "uniapp_api_notify_js",
+      "utils_now"
+    ],
+    "10": [
+      "audit_auditmiddleware",
+      "audit_auditmiddleware_dispatch",
+      "audit_rationale_1",
+      "backend_app_middleware_audit_py",
+      "backend_app_middleware_body_size_limit_py",
+      "backend_app_middleware_rate_limit_py",
+      "basehttpmiddleware",
+      "body_size_limit_bodysizelimitmiddleware",
+      "body_size_limit_bodysizelimitmiddleware_dispatch",
+      "body_size_limit_bodysizelimitmiddleware_init",
+      "rate_limit_get_api_key",
+      "rate_limit_ratelimitmiddleware",
+      "rate_limit_ratelimitmiddleware_dispatch",
+      "rate_limit_ratelimitmiddleware_init",
+      "rate_limit_rationale_12"
+    ],
+    "11": [
+      "groupdetail_addmember",
+      "groupdetail_builduseroptions",
+      "groupdetail_copyapikey",
+      "groupdetail_copyurl",
+      "groupdetail_data",
+      "groupdetail_fetchgroup",
+      "groupdetail_fetchuserlist",
+      "groupdetail_getuserselectlabel",
+      "groupdetail_handledelete",
+      "groupdetail_onload",
+      "groupdetail_onuserselect",
+      "groupdetail_removemember",
+      "groupdetail_userselectoptions",
+      "uniapp_pages_groupdetail_groupdetail_vue"
+    ],
+    "12": [
+      "config_baseurl",
+      "config_getbaseurl",
+      "config_gethttpswarning",
+      "config_ishttps",
+      "config_setbaseurl",
+      "config_timeout",
+      "login_confirmserver",
+      "login_handlelogin",
+      "login_if",
+      "login_ishttps",
+      "login_openserverdialog",
+      "uniapp_api_config_js",
+      "uniapp_pages_login_login_vue"
+    ],
+    "13": [
+      "uniapp_pages_users_userdetail_vue",
+      "userdetail_copykey",
+      "userdetail_data",
+      "userdetail_fetchapikey",
+      "userdetail_fetchuserdetail",
+      "userdetail_iphint",
+      "userdetail_onload",
+      "userdetail_onrolechange",
+      "userdetail_onstatuschange",
+      "userdetail_parseiplist",
+      "userdetail_removeip",
+      "userdetail_renewkey",
+      "users_getuser"
+    ],
+    "14": [
+      "002_reencrypt_api_keys_rationale_20",
+      "002_reencrypt_api_keys_reencrypt_all_keys",
+      "backend_app_core_encryption_py",
+      "backend_migrations_002_reencrypt_api_keys_py",
+      "encryption_decrypt_api_key",
+      "encryption_encrypt_api_key",
+      "encryption_is_encrypted",
+      "encryption_rationale_25",
+      "models_api_key",
+      "models_model_api_key"
+    ],
+    "15": [
+      "admin_models_createmodel",
+      "admin_models_deletemodel",
+      "admin_models_getmodel",
+      "admin_models_getmodels",
+      "admin_models_updatemodel",
+      "modeldetail_fetchmodel",
+      "modeldetail_handlesave",
+      "uniapp_api_admin_models_js",
+      "uniapp_pages_models_modeldetail_vue"
+    ],
+    "16": [
+      "006_upgrade_qa_records_to_longtext_downgrade",
+      "006_upgrade_qa_records_to_longtext_rationale_1",
+      "006_upgrade_qa_records_to_longtext_upgrade",
+      "backend_migrations_006_upgrade_qa_records_to_longtext_py"
+    ],
+    "17": [
+      "groups_catch",
+      "groups_if",
+      "uniapp_pages_groups_groups_vue"
+    ],
+    "18": [
+      "models_catch",
+      "models_if",
+      "uniapp_pages_models_models_vue"
+    ],
+    "19": [
+      "backend_app_main_py",
+      "main_log_validation_error",
+      "main_store_event"
+    ],
+    "20": [
+      "frontend_src_app_vue",
+      "frontend_src_main_js"
+    ],
+    "21": [
+      "auth_save",
+      "uniapp_store_auth_js"
+    ],
+    "22": [
+      "frontend_vite_config_js"
+    ],
+    "23": [
+      "frontend_src_stores_auth_js"
+    ],
+    "24": [
+      "frontend_src_api_request_js"
+    ],
+    "25": [
+      "frontend_src_views_models_vue"
+    ],
+    "26": [
+      "frontend_src_views_login_vue"
+    ],
+    "27": [
+      "frontend_src_views_users_vue"
+    ],
+    "28": [
+      "frontend_src_router_index_js"
+    ],
+    "29": [
+      "uniapp_app_vue"
+    ],
+    "30": [
+      "uniapp_main_js"
+    ],
+    "31": [
+      "backend_main_py"
+    ],
+    "32": [
+      "backend_app_init_py"
+    ],
+    "33": [
+      "backend_app_core_init_py"
+    ],
+    "34": [
+      "backend_app_models_init_py"
+    ],
+    "35": [
+      "backend_app_db_init_py"
+    ],
+    "36": [
+      "backend_app_api_init_py"
+    ],
+    "37": [
+      "node_tech_python_jose"
+    ],
+    "38": [
+      "node_tech_alembic"
+    ],
+    "39": [
+      "node_image_tabs"
+    ]
+  },
+  "cohesion": {
+    "0": 0.05,
+    "1": 0.06,
+    "2": 0.08,
+    "3": 0.05,
+    "4": 0.11,
+    "5": 0.1,
+    "6": 0.12,
+    "7": 0.26,
+    "8": 0.12,
+    "9": 0.17,
+    "10": 0.14,
+    "11": 0.19,
+    "12": 0.19,
+    "13": 0.19,
+    "14": 0.27,
+    "15": 0.28,
+    "16": 0.5,
+    "17": 0.67,
+    "18": 0.67,
+    "19": 0.67,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0
+  },
+  "gods": [
+    {
+      "id": "request_get",
+      "label": "get()",
+      "degree": 36
+    },
+    {
+      "id": "node_arch_backend",
+      "label": "Backend (FastAPI)",
+      "degree": 23
+    },
+    {
+      "id": "models_user",
+      "label": "User",
+      "degree": 19
+    },
+    {
+      "id": "request_post",
+      "label": "post()",
+      "degree": 15
+    },
+    {
+      "id": "models_apikey",
+      "label": "ApiKey",
+      "degree": 12
+    },
+    {
+      "id": "models_usermodel",
+      "label": "UserModel",
+      "degree": 11
+    },
+    {
+      "id": "models_qarecord",
+      "label": "QaRecord",
+      "degree": 10
+    },
+    {
+      "id": "session_base",
+      "label": "Base",
+      "degree": 10
+    },
+    {
+      "id": "node_project_luckapi",
+      "label": "LuckApi",
+      "degree": 10
+    },
+    {
+      "id": "config_get_settings",
+      "label": "get_settings()",
+      "degree": 9
+    }
+  ],
+  "surprises": [
+    {
+      "source": "getUsers()",
+      "target": "get()",
+      "source_files": [
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/frontend/src/api/user.js",
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/request.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `getUsers()` unexpectedly reaches hub `get()`"
+    },
+    {
+      "source": "getUser()",
+      "target": "get()",
+      "source_files": [
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/frontend/src/api/user.js",
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/request.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `getUser()` unexpectedly reaches hub `get()`"
+    },
+    {
+      "source": "getMe()",
+      "target": "get()",
+      "source_files": [
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/auth.js",
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/request.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `getMe()` unexpectedly reaches hub `get()`"
+    },
+    {
+      "source": "fetchApiKey()",
+      "target": "get()",
+      "source_files": [
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/users.js",
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/request.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `fetchApiKey()` unexpectedly reaches hub `get()`"
+    },
+    {
+      "source": "getModels()",
+      "target": "get()",
+      "source_files": [
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/admin_models.js",
+        "/Users/yanyy/Desktop/code/Python/LuckApi/LuckApi3.0/uniapp/api/request.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `getModels()` unexpectedly reaches hub `get()`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `get()` connect `Community 7` to `Community 0`, `Community 1`, `Community 4`, `Community 8`, `Community 10`, `Community 13`, `Community 15`?",
+      "why": "High betweenness centrality (0.328) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `get_settings()` connect `Community 5` to `Community 2`, `Community 7`?",
+      "why": "High betweenness centrality (0.087) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `assign_group_model()` connect `Community 1` to `Community 7`?",
+      "why": "High betweenness centrality (0.087) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 34 inferred relationships involving `get()` (e.g. with `getGroups()` and `getGroup()`) actually correct?",
+      "why": "`get()` has 34 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `Backend (FastAPI)` (e.g. with `Frontend (Vue 3 SPA)` and `Mobile (UniApp)`) actually correct?",
+      "why": "`Backend (FastAPI)` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 17 inferred relationships involving `User` (e.g. with `Base` and `LoginRequest`) actually correct?",
+      "why": "`User` has 17 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 13 inferred relationships involving `post()` (e.g. with `createGroup()` and `assignGroupUser()`) actually correct?",
+      "why": "`post()` has 13 INFERRED edges - model-reasoned connections that need verification."
+    }
+  ]
+}

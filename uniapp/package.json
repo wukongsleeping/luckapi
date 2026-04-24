@@ -1,0 +1,6 @@
+{
+  "name": "luckapi-mobile",
+  "version": "1.0.0",
+  "description": "LuckApi 移动端管理应用",
+  "main": "main.js"
+}

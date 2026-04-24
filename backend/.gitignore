@@ -1,0 +1,9 @@
+"""
+__pycache__ 和 .env 文件不会被提交
+"""
+
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/

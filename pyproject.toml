@@ -1,0 +1,83 @@
+[project]
+name = "luckapi"
+version = "1.0.0"
+description = "Self-hosted AI model proxy gateway - OpenAI compatible API"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [
+    {name = "LuckApi Contributors", email = "contact@luckapi.dev"},
+]
+keywords = ["fastapi", "openai", "proxy", "gateway", "llm", "ai", "self-hosted"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: FastAPI",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.6",
+    "sqlalchemy[asyncio]>=2.0.35",
+    "asyncmy>=0.2.9",
+    "aioredis>=2.0.1",
+    "pydantic>=2.9.2",
+    "pydantic-settings>=2.5.2",
+    "python-jose[cryptography]>=3.3.0",
+    "python-multipart>=0.0.12",
+    "aiohttp>=3.10.5",
+    "passlib[bcrypt]>=1.7.4",
+    "python-dotenv>=1.0.1",
+    "alembic>=1.13.3",
+    "httpx>=0.27.2",
+    "cryptography>=42.0.0",
+    "tenacity>=8.2.0",
+    "redis>=5.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/luckapi/luckapi"
+Documentation = "https://github.com/luckapi/luckapi#readme"
+Repository = "https://github.com/luckapi/luckapi"
+"Bug Tracker" = "https://github.com/luckapi/luckapi/issues"
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+include = '\.pyi?$'
+
+[tool.isort]
+line_length = 100
+profile = "black"
+multi_line_output = 3
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+
+[tool.flake8]
+max-line-length = 100
+max-complexity = 18
+select = ["B", "C", "E", "F", "W", "T"]
+ignore = ["E203", "E501", "W503"]
+per-file-ignores = "__init__.py:F401"
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+strict_optional = true
+
+[tool.safety]
+default = true
