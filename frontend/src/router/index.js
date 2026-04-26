@@ -37,6 +37,11 @@ const routes = [
         name: 'QaRecords',
         component: () => import('@/views/QaRecords.vue'),
       },
+      {
+        path: 'concurrency',
+        name: 'Concurrency',
+        component: () => import('@/views/Concurrency.vue'),
+      },
     ],
   },
 ]
