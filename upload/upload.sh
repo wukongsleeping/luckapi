@@ -315,9 +315,9 @@ sudo rm -f /etc/nginx/sites-enabled/default
 sudo ln -sf /etc/nginx/sites-available/luckapi /etc/nginx/sites-enabled/
 
 # 设置目录权限
-chmod 755 /home/ubuntu
-chmod -R 755 /home/ubuntu/python
-chown -R www-data:www-data /home/ubuntu/python/frontend/dist
+sudo chmod 755 /home/ubuntu
+sudo chmod -R 755 /home/ubuntu/python
+sudo chown -R www-data:www-data /home/ubuntu/python/frontend/dist
 
 # 测试并重启 nginx
 sudo nginx -t && sudo systemctl reload nginx
