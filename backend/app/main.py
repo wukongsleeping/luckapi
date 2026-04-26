@@ -80,13 +80,8 @@ app.include_router(admin_models.router, prefix="/admin/api", tags=["admin-global
 app.include_router(groups.router, prefix="/admin/api", tags=["admin-groups"])
 app.include_router(qa.router, prefix="/admin/api", tags=["admin-qa-records"])
 app.include_router(model_status.router, prefix="/admin/api", tags=["admin-model-status"])
-app.include_router(proxy.router, prefix='/admin/api')  # admin proxy and metrics
-
-
-# Health check at root
-@app.get("/health")
-async def health_check():
-    return {"status": "ok"}
+app.include_router(proxy.proxy_router)  # 公开代理路由（/v1/*, /health）
+app.include_router(proxy.admin_router, prefix='/admin/api')  # 管理路由（/metrics）
 app.include_router(notify.router)
 
 

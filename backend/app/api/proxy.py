@@ -11,6 +11,7 @@ import time
 from app.core.model_status import track_request_end, track_request_start
 from app.db.session import get_db
 from app.models.models import UserModel
+from app.services.proxy.concurrency_limiter import _global_concurrency_limiter
 from app.services.proxy.core import forward_chat
 from app.services.proxy.utils import parse_authorization
 from fastapi import APIRouter, Depends, HTTPException, Request
@@ -22,10 +23,14 @@ from app.services.proxy.auth import get_user_by_api_key, get_user_models_from_ca
 
 logger = logging.getLogger(__name__)
 
-router = APIRouter()
+# 公开代理路由（不需要 admin 前缀）
+proxy_router = APIRouter()
+
+# 管理路由（需要 admin 前缀）
+admin_router = APIRouter()
 
 
-@router.api_route("/v1/chat/completions", methods=["GET", "POST"])
+@proxy_router.api_route("/v1/chat/completions", methods=["GET", "POST"])
 async def proxy_chat(request: Request, db: AsyncSession = Depends(get_db)):
     """Chat 补全代理入口。"""
     body = await request.body()
@@ -45,7 +50,7 @@ async def proxy_chat(request: Request, db: AsyncSession = Depends(get_db)):
     )
 
 
-@router.api_route("/v1/completions", methods=["GET", "POST"])
+@proxy_router.api_route("/v1/completions", methods=["GET", "POST"])
 async def proxy_completions(request: Request, db: AsyncSession = Depends(get_db)):
     """文本补全代理入口。"""
     body = await request.body()
@@ -65,13 +70,13 @@ async def proxy_completions(request: Request, db: AsyncSession = Depends(get_db)
     )
 
 
-@router.get("/health")
+@proxy_router.get("/health")
 async def health_check():
     """健康检查，不暴露内部服务细节。"""
     return {"status": "ok"}
 
 
-@router.get("/metrics")
+@admin_router.get("/metrics")
 async def metrics():
     """Prometheus 监控指标端点。
 
@@ -84,7 +89,7 @@ async def metrics():
     )
 
 
-@router.get("/v1/models")
+@proxy_router.get("/v1/models")
 async def list_models(request: Request, db: AsyncSession = Depends(get_db)):
     """OpenAI 兼容的模型列表接口。"""
     auth_header = request.headers.get("authorization")
