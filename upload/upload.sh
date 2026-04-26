@@ -311,8 +311,8 @@ sudo mkdir -p /var/cache/nginx/luckyadmin
 sudo chown www-data:www-data /var/cache/nginx/luckyadmin
 
 # 启用 nginx 配置
-rm -f /etc/nginx/sites-enabled/default
-ln -sf /etc/nginx/sites-available/luckapi /etc/nginx/sites-enabled/
+sudo rm -f /etc/nginx/sites-enabled/default
+sudo ln -sf /etc/nginx/sites-available/luckapi /etc/nginx/sites-enabled/
 
 # 设置目录权限
 chmod 755 /home/ubuntu
