@@ -338,7 +338,7 @@ cd "$PROJECT_DIR/backend"
 pip install -q -r requirements.txt 2>/dev/null || pip install -r requirements.txt
 
 # 停止可能运行的旧进程
-pkill -f "uvicorn main:app" 2>/dev/null || true
+pkill -f "uvicorn" 2>/dev/null || true
 sleep 2
 
 # 部署 systemd 服务配置
@@ -348,26 +348,19 @@ Description=LuckApi Backend Service (FastAPI)
 After=network.target mysql.service redis-server.service
 
 [Service]
-Type=notify
+Type=simple
 User=ubuntu
 Group=ubuntu
 WorkingDirectory=/home/ubuntu/python/backend
 Environment="PATH=/home/ubuntu/miniconda3/envs/luck/bin"
 EnvironmentFile=/home/ubuntu/python/backend/.env
 
-ExecStart=/home/ubuntu/miniconda3/envs/luck/bin/uvicorn main:app \
-    --host 127.0.0.1 \
-    --port 9090 \
-    --workers 2 \
-    --loop uvloop \
-    --http httptools
+ExecStart=/home/ubuntu/miniconda3/envs/luck/bin/uvicorn main:app --host 127.0.0.1 --port 9090 --loop uvloop --http httptools
 
 Restart=always
 RestartSec=10
 LimitNOFILE=65535
-OOMScoreAdjust=-500
-NoNewPrivileges=true
-PrivateTmp=true
+TimeoutStartSec=30
 
 StandardOutput=journal
 StandardError=journal
